@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bavindu/ontologies/2024/11/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/bavindu/ontologies/2024/11/untitled-ontology-24"
+     xmlns:its="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bavindu/ontologies/2024/11/untitled-ontology-24"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/canCalculateAreaOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/canCalculateAreaOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/studies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/studies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/teaches"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/base -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/base"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/height"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/length"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/radius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/radius"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/userType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/width"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Maths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Maths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+        <its:radius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</its:radius>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Maths"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Maths"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+        <its:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</its:length>
+        <its:width rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</its:width>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Shapes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle"/>
+        <its:base rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</its:base>
+        <its:height rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</its:height>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Che1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Che1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Chemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Chemistry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Phy1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Phy1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Physics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Physics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Courses"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Student1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Student"/>
+        <its:canCalculateAreaOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Rectangle1"/>
+        <its:studies rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA101"/>
+        <its:studies rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA102"/>
+        <its:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5001</its:userId>
+        <its:userName>Bavindu Kavishka</its:userName>
+        <its:userType>Student</its:userType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Student2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Student2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Student"/>
+        <its:canCalculateAreaOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Circle1"/>
+        <its:canCalculateAreaOf rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Triangle1"/>
+        <its:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5002</its:userId>
+        <its:userName>Nadun Gimahana</its:userName>
+        <its:userType>Student</its:userType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Teacher1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Teacher1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Teacher"/>
+        <its:teaches rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA101"/>
+        <its:teaches rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA102"/>
+        <its:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1001</its:userId>
+        <its:userName>Dr. Sahar Ahmadzadeh</its:userName>
+        <its:userType>Teacher</its:userType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Teacher2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/untitled-ontology-5#Teacher2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/Teacher"/>
+        <its:teaches rdf:resource="http://www.semanticweb.org/madoluwagemado_ysj/ontologies/2024/11/its/MA102"/>
+        <its:userId>1002</its:userId>
+        <its:userName>Dr. Shmasuddeen Muhammad</its:userName>
+        <its:userType>Teacher</its:userType>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
